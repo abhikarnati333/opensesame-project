@@ -64,6 +64,8 @@ const Footer = () => {
                 <link.icon className="w-6 h-6" />
               </a>
             ))}
+            <span onClick={() => window.open('https://github.com/abhikarnati333/opensesame-project', '_blank')} className='underline underline-offset-2'>Source Code</span>
+
           </div>
         </div>
 
@@ -74,7 +76,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm 0">
           
           {/* Copyright */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <span>Built for</span>
             <span className="font-serif italic text-orange-500">OpenSesame</span>
           </div>
